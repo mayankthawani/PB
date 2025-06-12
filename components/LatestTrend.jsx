@@ -46,7 +46,6 @@ export default function LatestToys() {
       <h2 className="text-2xl md:text-3xl font-bold text-[#5C4033] mb-6 text-center">
         Latest Trends
       </h2>
-
       {/* Scrollable Cards */}
       <div className="flex space-x-4 overflow-x-auto pb-4 scrollbar-hide">
         {toys.map((toy) => (
