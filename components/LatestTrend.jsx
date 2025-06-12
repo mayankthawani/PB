@@ -75,7 +75,7 @@ export default function LatestToys() {
       <div className="text-center mt-6">
         <Button
           className="bg-[#8B5E3C] text-white hover:bg-[#A47148] transition font-medium px-6 py-2 rounded-full"
-          onClick={() => router.push('/all-toys')}
+          onClick={() => router.push('/Trendtoys')}
         >
           See More
         </Button>

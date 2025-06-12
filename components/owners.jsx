@@ -15,7 +15,7 @@ const owners = [
   },
   {
     name: 'Amit Thawani',
-    image: '/owners/karan.jpg',
+    image: '/chachu.jpg',
     tagline: 'Turns childhood dreams into collectibles.',
   },
 ];

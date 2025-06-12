@@ -1,0 +1,64 @@
+[
+    {
+      "id": 1,
+      "name": "Iron Man Figure",
+      "price": "₹799",
+      "image": "/toys/ironman.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Captain America Shield",
+      "price": "₹599",
+      "image": "/toys/captain.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Spider-Man Web Slinger",
+      "price": "₹699",
+      "image": "/toys/spiderman.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Hulk Smash Glove",
+      "price": "₹499",
+      "image": "/toys/hulk.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Thor’s Hammer Mjölnir",
+      "price": "₹899",
+      "image": "/toys/thor.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Batman Cape",
+      "price": "₹649",
+      "image": "/toys/batman.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Wonder Woman Lasso",
+      "price": "₹579",
+      "image": "/toys/wonderwoman.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Superman Figure",
+      "price": "₹699",
+      "image": "/toys/superman.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Black Panther Mask",
+      "price": "₹499",
+      "image": "/toys/panther.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Ant-Man Helmet",
+      "price": "₹999",
+      "image": "/toys/antman.jpg"
+    }
+ 
+  ]
+  
