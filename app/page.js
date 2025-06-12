@@ -6,6 +6,7 @@ import AboutUs from "@/components/aboutus";
 import Divider from "@/components/Divider";
 import Divider2 from "@/components/Divider2";
 import Owners from "@/components/owners";
+import LatestToys from "@/components/LatestTrend";
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
       <AboutUs />
       <Divider />
       <Owners />
+      <Divider2/>
+      <LatestToys />
+
     </>
   );
 }
