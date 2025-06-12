@@ -1,9 +1,9 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, useGLTF } from '@react-three/drei';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Particles } from './Particles';
 
 // Toy Model Loader
@@ -13,15 +13,11 @@ function ToyModel({ modelPath, scale = 0.12, position = [0, -2.5, 0] }) {
 }
 
 export default function HeroSection() {
-  const { scrollY } = useScroll();
-  const opacity = useTransform(scrollY, [0, 300], [1, 0]);
-  const y = useTransform(scrollY, [0, 300], [0, 100]);
   const [isHovered, setIsHovered] = useState(false);
   const [isFlipped, setIsFlipped] = useState(false);
 
   return (
     <motion.section
-      style={{ opacity, y }}
       className="w-full min-h-screen flex flex-col items-center justify-center text-center px-4 pt-28 relative z-10 bg-cover bg-fixed overflow-hidden"
       onHoverStart={() => setIsHovered(true)}
       onHoverEnd={() => setIsHovered(false)}
@@ -50,38 +46,44 @@ export default function HeroSection() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="text-white max-w-2xl mx-auto relative"
+        className="text-white max-w-3xl mx-auto relative"
       >
         <motion.p 
-          className="text-xl md:text-2xl font-medium mb-4"
+          className="text-2xl md:text-3xl font-medium mb-6 tracking-wider uppercase text-amber-200 drop-shadow-lg"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
         >
-          Adulthood is overrated.
+          <span className="inline-block transform hover:scale-105 transition-transform duration-300">
+            Adulthood is overrated.
+          </span>
         </motion.p>
         
         <motion.h1 
-          className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-amber-200 to-yellow-500 bg-clip-text text-transparent mb-4"
+          className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
         >
-          PremBrothers
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-200 animate-gradient-x">
+            PremBrothers
+          </span>
         </motion.h1>
 
         <motion.p 
-          className="text-base md:text-lg text-white/90"
+          className="text-xl md:text-2xl font-light text-white/90 mb-8 leading-relaxed"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
         >
-          Where nostalgia checks out with free shipping.
+          <span className="inline-block transform hover:scale-105 transition-transform duration-300">
+            Where nostalgia checks out with free shipping.
+          </span>
         </motion.p>
         
         {/* Interactive Badge */}
         <motion.div 
-          className="mt-6 text-xs md:text-sm flex justify-center gap-4"
+          className="mt-8 text-sm md:text-base flex flex-wrap justify-center gap-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
@@ -89,14 +91,14 @@ export default function HeroSection() {
           <motion.span
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm animate-shimmer cursor-pointer"
+            className="px-6 py-3 rounded-full bg-white/10 backdrop-blur-sm animate-shimmer cursor-pointer border border-amber-200/20 hover:border-amber-200/40 transition-colors duration-300"
           >
             🎯 Premium Toys
           </motion.span>
           <motion.span
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm animate-shimmer cursor-pointer"
+            className="px-6 py-3 rounded-full bg-white/10 backdrop-blur-sm animate-shimmer cursor-pointer border border-amber-200/20 hover:border-amber-200/40 transition-colors duration-300"
           >
             🚚 Free Shipping
           </motion.span>
@@ -150,7 +152,7 @@ export default function HeroSection() {
 
       {/* Flip CTA Button */}
       <motion.div 
-        className="mt-6 md:mt-10 perspective"
+        className="mt-8 md:mt-12 perspective"
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
       >
