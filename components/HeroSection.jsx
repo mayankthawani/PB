@@ -17,6 +17,7 @@ export default function HeroSection() {
   const opacity = useTransform(scrollY, [0, 300], [1, 0]);
   const y = useTransform(scrollY, [0, 300], [0, 100]);
   const [isHovered, setIsHovered] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false);
 
   return (
     <motion.section
@@ -51,25 +52,26 @@ export default function HeroSection() {
         transition={{ duration: 0.8 }}
         className="text-white max-w-2xl mx-auto relative"
       >
-        {/* Animated Header */}
-        <motion.h2 
-          className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-amber-200 to-yellow-500 bg-clip-text text-transparent"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-        >
-          PremBrothers
-        </motion.h2>
         <motion.p 
-          className="text-base md:text-lg mt-4 italic font-medium"
+          className="text-xl md:text-2xl font-medium mb-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
+          transition={{ delay: 0.2 }}
+        >
+          Adulthood is overrated.
+        </motion.p>
+        
+        <motion.h1 
+          className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-amber-200 to-yellow-500 bg-clip-text text-transparent mb-4"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
         >
-          Because adulthood is overrated.
-        </motion.p>
+          PremBrothers
+        </motion.h1>
+
         <motion.p 
-          className="text-sm md:text-base text-white/90 mt-3"
+          className="text-base md:text-lg text-white/90"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
@@ -144,25 +146,23 @@ export default function HeroSection() {
             <OrbitControls enableZoom={false} enablePan={false} enableRotate={true} />
           </Canvas>
         </div>
-        <motion.div
-          whileHover={{ scale: 1.1, rotateZ: 5 }}
-          transition={{ type: "spring", stiffness: 300 }}
-          className="absolute -top-10 left-1/2 transform -translate-x-1/2 text-white/80 text-sm md:text-base"
-        >
-          Interact with models ↓
-        </motion.div>
       </motion.div>
 
-      {/* Enhanced CTA Button */}
+      {/* Flip CTA Button */}
       <motion.div 
-        className="mt-6 md:mt-10"
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
+        className="mt-6 md:mt-10 perspective"
+        whileHover={{ scale: 1.02 }}
+        whileTap={{ scale: 0.98 }}
       >
-        <button className="relative overflow-hidden group bg-gradient-to-r from-amber-400 to-amber-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-all duration-300">
-          <span className="relative z-10">Explore Toys</span>
-          <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-amber-500 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" />
-        </button>
+        <div className="relative group">
+          <button 
+            onClick={() => setIsFlipped(!isFlipped)}
+            className={`flip-button bg-gradient-to-r from-amber-400 to-amber-600 text-white font-bold py-4 px-12 rounded-full shadow-lg transition-all duration-500 ${isFlipped ? 'flipped' : ''}`}
+          >
+            <div className="flip-front text-lg">Explore Toys</div>
+            <div className="flip-back text-lg">PB welcomes you!</div>
+          </button>
+        </div>
       </motion.div>
     </motion.section>
   );
@@ -184,5 +184,52 @@ export default function HeroSection() {
   );
   background-size: 200% 100%;
   animation: shimmer 2s infinite;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+.flip-button {
+  position: relative;
+  width: 200px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg, #feb47b, #ff7e5f);
+  border-radius: 30px;
+  overflow: hidden;
+  transition: transform 0.6s;
+}
+
+.flip-button .flip-front,
+.flip-button .flip-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flip-button .flip-back {
+  transform: rotateY(180deg);
+}
+
+.flip-button.flipped .flip-front {
+  transform: rotateY(180deg);
+}
+
+.flip-button.flipped .flip-back {
+  transform: rotateY(0);
+}
+
+.flip-button:hover {
+  transform: rotateY(180deg);
 }
 */
