@@ -8,6 +8,8 @@ import Divider2 from "@/components/Divider2";
 import Owners from "@/components/owners";
 import LatestToys from "@/components/LatestTrend";
 import Ourcollection from "@/components/Our-collection";
+import StoreLocator from "@/components/StoreLocater";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -22,7 +24,9 @@ export default function Home() {
       <LatestToys />
       <Ourcollection />
       <Divider />
-      
+      <StoreLocator />
+      <Footer/>
+
 
     </>
   );
