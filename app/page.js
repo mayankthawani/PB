@@ -7,6 +7,7 @@ import Divider from "@/components/Divider";
 import Divider2 from "@/components/Divider2";
 import Owners from "@/components/owners";
 import LatestToys from "@/components/LatestTrend";
+import Ourcollection from "@/components/Our-collection";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
       <Owners />
       <Divider2/>
       <LatestToys />
+      <Ourcollection />
+      <Divider />
+      
 
     </>
   );
