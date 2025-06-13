@@ -11,33 +11,33 @@ export default function LatestToys() {
   const toys = [
     {
       id: 1,
-      name: 'Iron Man Action Figure',
-      price: '₹799',
-      image: '/dadu.jpg',
+      name: 'Spider Man Action Figure',
+      price: '₹299',
+      image: '/spider-man.jpg',
     },
     {
       id: 2,
-      name: 'Captain America Shield',
-      price: '₹599',
-      image: '/toys/captain.jpg',
+      name: 'Captain America',
+      price: '299',
+      image: '/captain-america.jpg',
     },
     {
       id: 3,
-      name: 'Spider-Man Web Slinger',
-      price: '₹699',
-      image: '/toys/spiderman.jpg',
+      name: 'HotWheels Car Set',
+      price: '₹199-₹699',
+      image: '/HotWheels-exclusive.jpg',
     },
     {
       id: 4,
-      name: 'Hulk Smash Glove',
-      price: '₹499',
-      image: '/toys/hulk.jpg',
+      name: 'Camera',
+      price: '₹1499',
+      image: '/Camera.jpg',
     },
     {
       id: 5,
-      name: 'Thor’s Hammer Mjölnir',
+      name: 'Harry Potter',
       price: '₹899',
-      image: '/toys/thor.jpg',
+      image: '/Harry POTTERSET.jpg',
     },
   ];
 

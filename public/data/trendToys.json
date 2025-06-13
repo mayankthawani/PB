@@ -1,34 +1,37 @@
 [
-    {
-      "id": 1,
-      "name": "Iron Man Figure",
-      "price": "₹799",
-      "image": "/toys/ironman.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Captain America Shield",
-      "price": "₹599",
-      "image": "/toys/captain.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Spider-Man Web Slinger",
-      "price": "₹699",
-      "image": "/toys/spiderman.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Hulk Smash Glove",
-      "price": "₹499",
-      "image": "/toys/hulk.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Thor’s Hammer Mjölnir",
-      "price": "₹899",
-      "image": "/toys/thor.jpg"
-    },
+   
+  {
+    "id": 1,
+    "name": "Spider Man Action Figure",
+    "price": "₹299",
+    "image": "/spider-man.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Captain America",
+    "price": "₹299",
+    "image": "/captain-america.jpg"
+  },
+  {
+    "id": 3,
+    "name": "HotWheels Car Set",
+    "price": "₹199-₹699",
+    "image": "/HotWheels-exclusive.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Camera",
+    "price": "₹1499",
+    "image": "/Camera.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Harry Potter",
+    "price": "₹899",
+    "image": "/Harry POTTERSET.jpg"
+  }
+,
+
     {
       "id": 6,
       "name": "Batman Cape",

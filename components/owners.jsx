@@ -6,11 +6,11 @@ const owners = [
   {
     name: 'Satish Thawani',
     image: '/dadu.jpg',
-    tagline: 'Started it all with a GI Joe in 1970.',
+    tagline: 'Started it all in 1970.',
   },
   {
     name: 'Manish Thawani',
-    image: '/owners/raj.jpg',
+    image: '/papa.jpg',
     tagline: 'Bringing nostalgia to the shelves.',
   },
   {
@@ -31,7 +31,7 @@ export default function MeetOwners() {
           </span>
         </h2>
         <p className="text-xl md:text-2xl mb-12 text-amber-100 font-light">
-          3 Generations. 1 Mission. <span className="italic font-medium">Bringing back the joy of childhood since 1973.</span>
+          3 Generations. 1 Mission. <span className="italic font-medium">Bringing back the joy of childhood since 1970.</span>
         </p>
 
         {/* Owners Grid */}
