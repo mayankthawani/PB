@@ -34,34 +34,108 @@
 
     {
       "id": 6,
-      "name": "Batman Cape",
-      "price": "₹649",
-      "image": "/toys/batman.jpg"
+      "name": "Anime Set",
+      "price": "₹449",
+      "image": "/Anime-set.jpg"
     },
     {
       "id": 7,
-      "name": "Wonder Woman Lasso",
-      "price": "₹579",
-      "image": "/toys/wonderwoman.jpg"
+      "name": "Anime Characters",
+      "price": "₹400-₹800",
+      "image": "anime.jpg"
     },
     {
       "id": 8,
-      "name": "Superman Figure",
-      "price": "₹699",
-      "image": "/toys/superman.jpg"
+      "name": "Bath Tubs(all sizes)",
+      "price": "₹399-1699",
+      "image": "/Bath-Tubs.jpg"
     },
     {
       "id": 9,
-      "name": "Black Panther Mask",
-      "price": "₹499",
-      "image": "/toys/panther.jpg"
+      "name": "Children print cammera",
+      "price": "₹499-₹1999",
+      "image": "/Childeren-camera.jpg"
     },
     {
       "id": 10,
-      "name": "Ant-Man Helmet",
-      "price": "₹999",
-      "image": "/toys/antman.jpg"
+      "name": "Color set",
+      "price": "₹199-₹499",
+      "image": "/Color-set.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Ganesh Idol",
+      "price": "₹149-₹449",
+      "image": "/Ganesh.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Hulk",
+      "price": "₹299",
+      "image": "/hulk.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Kid bathtub",
+      "price": "₹399-999",
+      "image": "/Kids-Tube.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Nerf Gun Marvel edition",
+      "price": "₹499-₹999",
+      "image": "/marvel-nerf.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Original Nerf Gun",
+      "price": "₹499-₹1499",
+      "image": "/meidum-nerf.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Metal Bikes",
+      "price": "₹149-₹449",
+      "image": "/Metal-Bikes.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Metal Cars",
+      "price": "₹299",
+      "image": "/mETAL-CARS.jpg"
+    },
+    {
+      "id": 18,
+      "name": "RC Monster Truck",
+      "price": "₹499-1999",
+      "image": "/Monster-car.jpg"
+    },
+    {
+      "id": 19,
+      "name": "RC Sliding Car",
+      "price": "₹1399",
+      "image": "/R-C Sliding Car.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Small Nerf Gun",
+      "price": "₹499-₹1099",
+      "image": "/small-nerf.jpg"
+    },
+     {
+      "id": 21,
+      "name": "Staitonary Gift Set",
+      "price": "₹499",
+      "image": "/Stationary-Giftbax.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Walkie Talkie",
+      "price": "₹499-₹1099",
+      "image": "/Walkie-Talkie.jpg"
     }
+
+ 
  
   ]
   
