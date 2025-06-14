@@ -19,7 +19,7 @@ export default function LatestToys() {
       id: 2,
       name: 'Captain America',
       price: '299',
-      image: '/captain-america.jpg',
+      image: '/Captain-america.jpg',
     },
     {
       id: 3,
