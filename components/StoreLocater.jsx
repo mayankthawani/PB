@@ -22,7 +22,7 @@ export default function StoreLocator() {
   }, []);
 
   return (
-    <section className="px-4 py-12">
+    <section id='location' className="px-4 py-12">
       <h2 className="text-3xl font-bold text-[#5C4033] text-center mb-6">
         Find Us Near You
       </h2>

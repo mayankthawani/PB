@@ -42,7 +42,7 @@ export default function Ourcollection() {
   ];
 
   return (
-    <section className="w-full py-12 px-4">
+    <section id='location' className="w-full py-12 px-4">
       <h2 className="text-2xl md:text-3xl font-bold text-[#5C4033] mb-6 text-center">
         Our Collection
       </h2>

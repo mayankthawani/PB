@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function AboutUs() {
   return (
-    <section className="w-full py-16 px-6 text-[#5C4033] min-h-screen flex items-center justify-center">
+    <section id="about" className="w-full py-16 px-6 text-[#5C4033] min-h-screen flex items-center justify-center">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Toy Image or Illustration */}
         <div className="w-full md:w-1/2 flex justify-center">

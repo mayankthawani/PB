@@ -22,7 +22,7 @@ const owners = [
 
 export default function MeetOwners() {
   return (
-    <section className="w-full py-16 px-6 text-white">
+    <section id='owners' className="w-full py-16 px-6 text-white">
       <div className="max-w-5xl mx-auto text-center">
         {/* Section Title */}
         <h2 className="text-4xl md:text-5xl font-extrabold mb-4">

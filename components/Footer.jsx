@@ -4,7 +4,7 @@ import { FaInstagram, FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#F5DEB3] text-[#5C4033] py-8 px-4 mt-12">
+    <footer id='contact' className="bg-[#F5DEB3] text-[#5C4033] py-8 px-4 mt-12">
       <div className="max-w-md mx-auto flex flex-col items-center gap-6 text-center">
         
         {/* Contact Info */}
@@ -12,6 +12,8 @@ export default function Footer() {
           <div className="flex items-center justify-center gap-2 text-base">
             <FaPhoneAlt className="text-[#8B5E3C]" /> 
             <span>+91 7000272770</span>
+             <FaPhoneAlt className="text-[#8B5E3C]" /> 
+            <span>+91 7000272772</span>
           </div>
           <div className="flex items-center justify-center gap-2 text-base">
             <FaMapMarkerAlt className="text-[#8B5E3C]" />

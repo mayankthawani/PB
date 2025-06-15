@@ -1,9 +1,15 @@
 'use client';
 
 import React from 'react';
-import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle } from "@/components/ui/sheet";
-import { Button } from "@/components/ui/button";
-import { Menu } from "lucide-react";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+  SheetHeader,
+  SheetTitle,
+} from '@/components/ui/sheet';
+import { Button } from '@/components/ui/button';
+import { Menu } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -15,8 +21,12 @@ export default function Header() {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex gap-6">
           <a href="#" className="hover:underline">Home</a>
-          <a href="#" className="hover:underline">Toys</a>
-          <a href="#" className="hover:underline">Contact</a>
+          <a href="#about" className="hover:underline">About Us</a>
+          <a href="#owners" className="hover:underline">Owners</a>
+          <a href="#trendy-toys" className="hover:underline">Trendy Toys</a>
+          <a href="#collection" className="hover:underline">Our Collection</a>
+          <a href="#location" className="hover:underline">Location</a>
+          <a href="#contact" className="hover:underline">Contact</a>
         </nav>
 
         {/* Mobile Navigation */}
@@ -31,15 +41,13 @@ export default function Header() {
               <SheetTitle className="text-white">Navigation</SheetTitle>
             </SheetHeader>
             <nav className="flex flex-col gap-4 mt-8">
-              <a href="#" className="text-white text-lg hover:underline p-2">
-                Home
-              </a>
-              <a href="#" className="text-white text-lg hover:underline p-2">
-                Toys
-              </a>
-              <a href="#" className="text-white text-lg hover:underline p-2">
-                Contact
-              </a>
+              <a href="#home" className="text-white text-lg hover:underline p-2">Home</a>
+              <a href="#about" className="text-white text-lg hover:underline p-2">About Us</a>
+              <a href="#owners" className="text-white text-lg hover:underline p-2">Owners</a>
+              <a href="#trendy-toys" className="text-white text-lg hover:underline p-2">Trendy Toys</a>
+              <a href="#collection" className="text-white text-lg hover:underline p-2">Our Collection</a>
+              <a href="#location" className="text-white text-lg hover:underline p-2">Location</a>
+              <a href="#contact" className="text-white text-lg hover:underline p-2">Contact</a>
             </nav>
           </SheetContent>
         </Sheet>

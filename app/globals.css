@@ -159,3 +159,6 @@ body {
 .animate-gradient-x {
   animation: gradient-x 15s ease infinite;
 }
+html {
+  scroll-behavior: smooth;
+}
