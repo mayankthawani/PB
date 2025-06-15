@@ -126,14 +126,17 @@ export default function HeroSection() {
           </Canvas>
         </div>
 
-        {/* Logo */}
-        <div className="w-14 h-14 md:w-20 md:h-20 flex items-center justify-center">
-          <img
-            src="/logo.png"
-            alt="Logo"
-            className="w-full h-auto animate-bounce"
-          />
-        </div>
+     {/* Logo */}
+{/* Logo */}
+<div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center">
+  <img
+    src="/logo.jpg"
+    alt="Logo"
+    className="w-full h-full rounded-full animate-bounce object-cover"
+  />
+</div>
+
+
 
         {/* Iron Man */}
         <div className="w-[100px] h-[150px] md:w-[160px] md:h-[240px] flex-shrink-0">

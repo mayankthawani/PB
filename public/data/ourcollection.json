@@ -1,182 +1,122 @@
 [
   {
     "id": 1,
-    "name": "Teddy Bear - Brown",
-    "price": "₹599",
-    "image": "https://i.imgur.com/Jv8IWK9.png"
+    "name": "Jhenga Game",
+    "price": "₹399",
+    "image": "/our/image.png"
   },
   {
     "id": 2,
-    "name": "Remote Control Car",
-    "price": "₹1,299",
-    "image": "https://i.imgur.com/jWAtbE3.jpg"
+    "name": "Barbie set",
+    "price": "₹99-₹1,999",
+    "image": "/our/image1.png"
   },
   {
     "id": 3,
-    "name": "Building Blocks Set",
-    "price": "₹899",
-    "image": "https://i.imgur.com/hvmV8Bo.jpg"
+    "name": "Nail Art Set",
+    "price": "₹99-₹599",
+    "image": "/our/image2.png"
   },
   {
     "id": 4,
-    "name": "Stuffed Elephant Toy",
-    "price": "₹499",
-    "image": "https://i.imgur.com/gfY8NXd.jpg"
+    "name": "Makeup set",
+    "price": "₹99-₹1099",
+    "image": "/our/image3.png"
   },
   {
     "id": 5,
-    "name": "Ganesha Murti",
-    "price": "₹799",
-    "image": "https://i.imgur.com/nG7RAeH.jpg"
+    "name": "Radha Krrishna Idol",
+    "price": "₹499-₹1499",
+    "image": "/our/image copy.png"
   },
   {
     "id": 6,
-    "name": "Barbie Doll - Party Dress",
-    "price": "₹1,199",
-    "image": "https://i.imgur.com/78SHqkz.jpg"
+    "name": "Ganesha Idol",
+    "price": "₹499-₹1,199",
+    "image": "/our/image copy 2.png"
   },
   {
     "id": 7,
-    "name": "Couple Murti - Resin",
-    "price": "₹999",
-    "image": "https://i.imgur.com/WnTRSKo.jpg"
+    "name": "Couple Murti",
+    "price": "₹499-₹999",
+    "image": "/our/image copy 3.png"
   },
   {
     "id": 8,
-    "name": "Educational Puzzle Set",
+    "name": "Radha Krishna Idol",
     "price": "₹699",
-    "image": "https://i.imgur.com/9efgL5J.jpg"
+    "image": "/our/image copy 4.png"
   },
   {
     "id": 9,
-    "name": "Hanuman Idol (Miniature)",
-    "price": "₹599",
-    "image": "https://i.imgur.com/mEp2zHK.jpg"
+    "name": "Kids Laptop",
+    "price": "₹299-₹599",
+    "image": "/our/image copy 5.png"
   },
   {
     "id": 10,
-    "name": "Kitchen Set Toy",
-    "price": "₹549",
-    "image": "https://i.imgur.com/xg3Wcmu.jpg"
+    "name": "Bat Ball Set",
+    "price": "₹99-₹549",
+    "image": "/our/image copy 6.png"
   },
   {
     "id": 11,
-    "name": "Plush Dog Toy",
+    "name": "buisness set",
     "price": "₹479",
-    "image": "https://i.imgur.com/HwONUXS.jpg"
+    "image": "/our/image copy 7.png"
   },
   {
     "id": 12,
-    "name": "Iron Man Action Figure",
-    "price": "₹1,499",
-    "image": "https://i.imgur.com/Xr3XQbc.jpg"
+    "name": "Kids Scooter",
+    "price": "₹1099-₹1,499",
+    "image": "/our/image copy 8.png"
   },
   {
     "id": 13,
-    "name": "Toy Train Set",
-    "price": "₹1,199",
-    "image": "https://i.imgur.com/srNPHVB.jpg"
+    "name": "Study Table",
+    "price": "₹499-₹1,199",
+    "image": "/our/image copy 9.png"
   },
   {
     "id": 14,
-    "name": "Fluffy Unicorn",
-    "price": "₹749",
-    "image": "https://i.imgur.com/CcK9FbT.jpg"
+    "name": "Electric Bike",
+    "price": "₹8000-₹12,999",
+    "image": "/our/image copy 10.png"
   },
   {
     "id": 15,
-    "name": "Krishna Idol",
-    "price": "₹849",
-    "image": "https://i.imgur.com/TJxWfZe.jpg"
+    "name": "Electric Jeep",
+    "price": "₹10000-₹15,999",
+    "image": "/our/image copy 11.png"
   },
   {
     "id": 16,
-    "name": "Mini Doctor Set",
-    "price": "₹650",
-    "image": "https://i.imgur.com/khRM7r1.jpg"
+    "name": "Electric Car",
+    "price": "₹8000-₹12,999",
+    "image": "/our/image copy 12.png"
   },
   {
     "id": 17,
-    "name": "Dinosaur Model Toy",
-    "price": "₹899",
-    "image": "https://i.imgur.com/8vEmlfa.jpg"
+    "name": "Slide",
+    "price": "₹4999-₹9999",
+    "image": "/our/image copy 13.png"
   },
   {
     "id": 18,
-    "name": "Couple Doll Statue",
-    "price": "₹599",
-    "image": "https://i.imgur.com/3q4eAaf.jpg"
+    "name": "Twister Car",
+    "price": "₹999-₹1,499",
+    "image": "/our/image copy 14.png"
   },
   {
     "id": 19,
-    "name": "My First ABC Book Toy",
-    "price": "₹399",
-    "image": "https://i.imgur.com/NWVyQ1V.jpg"
+    "name": "Baby Cycle",
+    "price": "₹1299-₹2,499",
+    "image": "/our/image copy 15.png"
   },
   {
     "id": 20,
-    "name": "Soft Bunny Toy",
-    "price": "₹579",
-    "image": "https://i.imgur.com/Sc64HwF.jpg"
-  },
-  {
-    "id": 21,
-    "name": "Mini Race Car Set",
-    "price": "₹1,099",
-    "image": "https://i.imgur.com/HeDKQSr.jpg"
-  },
-  {
-    "id": 22,
-    "name": "Cuddly Koala Bear",
-    "price": "₹649",
-    "image": "https://i.imgur.com/zYKTv7e.jpg"
-  },
-  {
-    "id": 23,
-    "name": "Peppa Pig Toy",
-    "price": "₹899",
-    "image": "https://i.imgur.com/rZgZ1yd.jpg"
-  },
-  {
-    "id": 24,
-    "name": "Ram Idol - Resin",
-    "price": "₹949",
-    "image": "https://i.imgur.com/rV4npoP.jpg"
-  },
-  {
-    "id": 25,
-    "name": "Toy Drum Set",
-    "price": "₹799",
-    "image": "https://i.imgur.com/QiYpKjM.jpg"
-  },
-  {
-    "id": 26,
-    "name": "Spiderman Figure",
-    "price": "₹1,299",
-    "image": "https://i.imgur.com/8SLmYBh.jpg"
-  },
-  {
-    "id": 27,
-    "name": "Musical Piano Mat",
-    "price": "₹1,099",
-    "image": "https://i.imgur.com/XP8CNWW.jpg"
-  },
-  {
-    "id": 28,
-    "name": "Chota Bheem Figure",
-    "price": "₹799",
-    "image": "https://i.imgur.com/M2eUULx.jpg"
-  },
-  {
-    "id": 29,
-    "name": "Lego Duplo Set",
-    "price": "₹1,499",
-    "image": "https://i.imgur.com/gzZKq3J.jpg"
-  },
-  {
-    "id": 30,
-    "name": "Durga Maa Idol",
-    "price": "₹999",
-    "image": "https://i.imgur.com/B04FHy4.jpg"
+    "name": "Baby Jhula",
+    "price": "₹899-₹2,499",
+    "image": "/our/image copy 16.png"
   }
 ]

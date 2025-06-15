@@ -11,33 +11,33 @@ export default function Ourcollection() {
   const toys = [
     {
     "id": 1,
-    "name": "Teddy Bear - Brown",
-    "price": "₹599",
-    "image": "https://i.imgur.com/Jv8IWK9.png"
+    "name": "Jhenga Game",
+    "price": "₹399",
+    "image": "/our/image.png"
   },
   {
     "id": 2,
-    "name": "Remote Control Car",
-    "price": "₹1,299",
-    "image": "https://i.imgur.com/jWAtbE3.jpg"
+    "name": "Barbie set",
+    "price": "₹99-₹1,999",
+    "image": "/our/image1.png"
   },
   {
     "id": 3,
-    "name": "Building Blocks Set",
-    "price": "₹899",
-    "image": "https://i.imgur.com/hvmV8Bo.jpg"
+    "name": "Nail Art Set",
+    "price": "₹99-₹599",
+    "image": "/our/image2.png"
   },
   {
     "id": 4,
-    "name": "Stuffed Elephant Toy",
-    "price": "₹499",
-    "image": "https://i.imgur.com/gfY8NXd.jpg"
+    "name": "Makeup set",
+    "price": "₹99-₹1099",
+    "image": "/our/image3.png"
   },
   {
     "id": 5,
-    "name": "Ganesha Murti",
-    "price": "₹799",
-    "image": "https://i.imgur.com/nG7RAeH.jpg"
+    "name": "Radha Krrishna Idol",
+    "price": "₹499-₹1499",
+    "image": "/our/image copy.png"
   },
   ];
 
@@ -54,13 +54,17 @@ export default function Ourcollection() {
             className="min-w-[220px] max-w-[240px] border-2 border-[#8B5E3C] bg-[#F5DEB3] rounded-lg shadow-md flex-shrink-0"
           >
             {/* Image fits full width */}
-            <div className="w-full h-48 overflow-hidden border-b-2 border-[#8B5E3C]">
+           <div className="w-full h-48 overflow-hidden border-b-2 border-[#8B5E3C]">
               <img
                 src={toy.image}
                 alt={toy.name}
                 className="w-full h-full object-cover"
               />
             </div>
+
+
+
+
 
             {/* Text Content */}
             <CardContent className="text-center px-3 py-4">
