@@ -96,7 +96,7 @@
       "id": 16,
       "name": "Metal Bikes",
       "price": "₹149-₹449",
-      "image": "/Metal-Bikes.jpg"
+      "image": "/Metal-bikes.jpg"
     },
     {
       "id": 17,
@@ -108,7 +108,7 @@
       "id": 18,
       "name": "RC Monster Truck",
       "price": "₹499-1999",
-      "image": "/Monster-car.jpg"
+      "image": "/Monster-Car.jpg"
     },
     {
       "id": 19,
