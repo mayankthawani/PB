@@ -10,8 +10,14 @@ import {
 } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
 import { Menu } from 'lucide-react';
+import { useState } from 'react';
 
 export default function Header() {
+   const [open, setOpen] = useState(false);
+
+  const handleLinkClick = () => {
+    setOpen(false); // closes the sheet when link is clicked
+  };
   return (
     <header className="w-full fixed top-0 left-0 z-50 bg-[#8C6240] text-white shadow-md">
       <div className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
@@ -30,7 +36,8 @@ export default function Header() {
         </nav>
 
         {/* Mobile Navigation */}
-        <Sheet>
+         {/* Mobile Navigation */}
+        <Sheet open={open} onOpenChange={setOpen}>
           <SheetTrigger asChild className="md:hidden">
             <Button variant="ghost" size="icon" className="text-white hover:bg-[#9d7351]">
               <Menu className="h-6 w-6" />
@@ -41,13 +48,13 @@ export default function Header() {
               <SheetTitle className="text-white">Navigation</SheetTitle>
             </SheetHeader>
             <nav className="flex flex-col gap-4 mt-8">
-              <a href="#home" className="text-white text-lg hover:underline p-2">Home</a>
-              <a href="#about" className="text-white text-lg hover:underline p-2">About Us</a>
-              <a href="#owners" className="text-white text-lg hover:underline p-2">Owners</a>
-              <a href="#trendy-toys" className="text-white text-lg hover:underline p-2">Trendy Toys</a>
-              <a href="#collection" className="text-white text-lg hover:underline p-2">Our Collection</a>
-              <a href="#location" className="text-white text-lg hover:underline p-2">Location</a>
-              <a href="#contact" className="text-white text-lg hover:underline p-2">Contact</a>
+              <a href="#" onClick={handleLinkClick} className="text-white text-lg hover:underline p-2">Home</a>
+              <a href="#about" onClick={handleLinkClick} className="text-white text-lg hover:underline p-2">About Us</a>
+              <a href="#owners" onClick={handleLinkClick} className="text-white text-lg hover:underline p-2">Owners</a>
+              <a href="#trendy-toys" onClick={handleLinkClick} className="text-white text-lg hover:underline p-2">Trendy Toys</a>
+              <a href="#collection" onClick={handleLinkClick} className="text-white text-lg hover:underline p-2">Our Collection</a>
+              <a href="#location" onClick={handleLinkClick} className="text-white text-lg hover:underline p-2">Location</a>
+              <a href="#contact" onClick={handleLinkClick} className="text-white text-lg hover:underline p-2">Contact</a>
             </nav>
           </SheetContent>
         </Sheet>
